@@ -37,17 +37,23 @@ The goal is a growing, well-organized reference that captures the journey from b
 |------|---------|
 | gh   | latest  |
 
-## Conventions & Preferences
-
-- Keep notes in plain text or Markdown for easy searching (`grep`, `ripgrep`)
-- Organize sample code into subdirectories named after the topic or session
-- Prefer readable, commented code — this is a learning repo, not production
-
-### AI assistant preferences
+## Preferences
 
 - Keep responses concise and direct
-- Commit messages: conventional commits format, lowercase (e.g. `docs: add notes on loops`, `feat: add go hello world`)
-- Never mention or reference any AI agent in issues, PRs, or commit messages
+- Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages (e.g. `feat:`, `fix:`, `docs:`, `chore:`)
+- Never refer to any agent in any issue, PR, or commit message
+- Always use `/usr/bin/open` (not `open`) when opening files or URLs on macOS
+
+## Conventions
+
+- No language/tooling conventions set yet — project is in early learning phase
+- Notes will live in `notes/`, sample code in `code/` (not yet created)
+
+## Notes for Agents
+
+- Always read the **Progress** section below before responding
+- Update the **Progress** section at the end of each session
+- Refer to PLAN.md for the full learning roadmap
 
 ## Useful Commands
 
@@ -55,3 +61,9 @@ The goal is a growing, well-organized reference that captures the journey from b
 mise install          # Install/update all tools listed in mise.toml
 gh repo view          # Open the GitHub repo summary
 ```
+
+## Progress
+
+- **Last session:** Not yet started
+- **Topics covered:** Not yet
+- **Up next:** Start Stage 1 of PLAN.md — terminal navigation and git basics; consider adding `notes/` and `code/` folder structure
