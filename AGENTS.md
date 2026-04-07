@@ -14,20 +14,18 @@ The goal is a growing, well-organized reference that captures the journey from b
 
 ## Repository Structure
 
-> Update this section as the structure evolves.
-
 ```
 /
-├── AGENTS.md           # This file
-├── mise.toml           # Tool versions managed by mise
-└── .devcontainer/      # Dev container configuration
+├── AGENTS.md           # AI agent context and preferences
+├── PLAN.md             # Job-focused learning roadmap
+└── README.md           # Project overview
 ```
 
 ## Development Environment
 
 - **Container base**: `mcr.microsoft.com/devcontainers/base:ubuntu-24.04`
-- **Tool manager**: [mise](https://mise.jdx.dev/) — see `mise.toml` for pinned tool versions
-- **Workspace manager**: DevPod
+- **Tool manager**: [mise](https://mise.jdx.dev/) — config in `mise.toml`
+- **Workspace manager**: DevPod — config in `.devcontainer/`
 - **Setup**: run `.devcontainer/scripts/setup` (runs `mise trust` + `mise install`)
 - **Clipboard**: `xclip` and `wl-clipboard` available
 
