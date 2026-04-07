@@ -46,7 +46,7 @@ The goal is a growing, well-organized reference that captures the journey from b
 ### AI assistant preferences
 
 - Keep responses concise and direct
-- Commit messages: imperative mood, lowercase subject line (e.g. `add notes on loops`)
+- Commit messages: conventional commits format, lowercase (e.g. `docs: add notes on loops`, `feat: add go hello world`)
 - Never mention or reference any AI agent in issues, PRs, or commit messages
 
 ## Useful Commands
